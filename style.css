@@ -21,7 +21,6 @@
 /* navbar section */
 
 .navbar {
-    background-color: #ffffff;
     height: 50px;
     padding: 10px;
     border-bottom: 1px solid #ccc;
@@ -54,7 +53,7 @@
   
   .nav-links li a:hover {
     color: #090b08;
-    color: rgb(94, 5, 94);
+    color: rgb(231, 36, 231);
   }
   
   .dropdown {
@@ -64,11 +63,11 @@
   .dropdown .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #ece3e3;
+    background-color: rgb(232, 226, 226);
     min-width: 100px;
     max-width: 200px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #edeaea;
   }
   
   .dropdown:hover .dropdown-menu {
