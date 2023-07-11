@@ -195,7 +195,7 @@
 .sign-container {
     text-align: center;
     padding-top: 150px;
-
+    padding-left: 50px;
 }
 
 .sign-header {
@@ -224,6 +224,7 @@
 .sign-pic {
     width: 418px;
     height: 440px;
+    padding-right: 50px;
 }
 
 /* sign up section ends */
