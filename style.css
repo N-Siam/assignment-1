@@ -62,7 +62,11 @@
 .banner-image {
     padding-right: 60px;
 }
-
+.banner-pic{
+    height: 100%;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
 /* home banner section ends */
 
 
