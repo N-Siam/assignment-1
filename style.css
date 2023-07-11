@@ -346,5 +346,8 @@
     font-size: 12px;
     font-weight: 500;
 }
+.cpy-right::before {
+    content: "@";
+  }
 
 /* footer section end here */
