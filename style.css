@@ -199,8 +199,9 @@
     font-size: 40px;
     font-weight: 800;
 }
-.sign-off{
-    color:  #E55473;
+
+.sign-off {
+    color: #E55473;
 }
 
 .sign-text {
@@ -265,9 +266,11 @@
 .shop-container {
     margin: 100px;
     background-image: url("asset/Rectangle\ 9.png");
+    /* background-repeat: no-repeat; */
+    background-position: right top;
     height: 300px;
-    padding-top: 70px;
-}
+    padding-top: 100px;
+    background-position-x: center;
 
 .shop-header {
     color: #272727;
@@ -317,8 +320,9 @@
     font-size: 20px;
     text-align: center;
 }
-.foot-flower{
-   color:  #E55473;
+
+.foot-flower {
+    color: #E55473;
 }
 
 
