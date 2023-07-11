@@ -8,15 +8,59 @@
     border-radius: 4px;
     background: #E55473;
     border: 0;
-    padding: 5px 7px;
+    padding: 5px 8px;
     color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(92, 215, 174);
 }
 
 
 
 
+/* home banner section */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 10px 60px;
+    height: 80vh;
+    margin-bottom: 80px;
+}
 
+.banner-container {
+    text-align: left;
+    margin-top: 70px;
+}
 
+.banner-header {
+    /* padding-top: 100px; */
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 12px;
+}
+
+.banner-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-shop {
+    width: 100px;
+    height: 40px;
+}
+
+.banner-image {
+}
 
 
 
@@ -86,10 +130,12 @@
     text-align: center;
     padding-left: 50px;
 }
-.caption-2{
+
+.caption-2 {
     padding-right: 0px;
 }
-.caption-3{
+
+.caption-3 {
     padding-right: 50px;
 }
 
