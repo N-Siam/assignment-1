@@ -30,7 +30,6 @@
     width: 100px;
     height: 50px;
     padding-left: 100px;
-
   }
   
   .nav-links {
@@ -48,12 +47,12 @@
   .nav-links li a {
     color: #000;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 24px;
   }
   
   .nav-links li a:hover {
     color: #090b08;
-    color: rgb(231, 36, 231);
+    color: rgb(245, 124, 245);
   }
   
   .dropdown {
@@ -71,7 +70,7 @@
   }
   
   .dropdown:hover .dropdown-menu {
-    display: block;
+    display: block; 
   }
 
 /* navbar ends */
