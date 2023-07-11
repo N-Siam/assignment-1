@@ -18,6 +18,65 @@
 }
 
 
+/* navbar section */
+
+.navbar {
+    background-color: #ffffff;
+    height: 50px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: rgb(232, 226, 226);
+  }
+  .nav-logo{
+    width: 100px;
+    height: 50px;
+    padding-left: 100px;
+
+  }
+  
+  .nav-links {
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+  }
+  
+  .nav-links li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 26px;
+  }
+  
+  .nav-links li a:hover {
+    color: #090b08;
+    color: rgb(94, 5, 94);
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #ece3e3;
+    min-width: 100px;
+    max-width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+/* navbar ends */
+
 
 
 /* home banner section */
