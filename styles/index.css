@@ -76,9 +76,63 @@
   text-align: center;
   margin-top: 16px;
 }
-.discount-65, img {
+.discount-65,
+img {
   width: 500px;
   height: 350px;
   align-items: center;
   margin-top: 40px;
+  margin-bottom: 300px;
+}
+
+/* welcome party section styles */
+.welcome-party-container {
+  width: 82%;
+  max-width: 1320px;
+  margin: 40px auto;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../assets/images/Vectorrr.png");
+  border-radius: 16px;
+}
+.welcome-party-container .welcome-img img {
+  width: 280px;
+  height: 380px;
+  margin: 55px 0;
+  background: inherit;
+}
+.welcome-party-container .welcome-party-content .welcome-party-title {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 72px;
+  text-align: left;
+  width: 500px;
+}
+.welcome-party-container .welcome-party-content .welcome-party-text {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  width: 550px;
+  margin-top: 20px;
+}
+.welcome-party-container .welcome-party-content button {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  padding: 4px;
+  background-color: inherit;
+  border: none;
+  padding-left: 20px;
 }
