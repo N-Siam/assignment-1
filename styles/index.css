@@ -101,7 +101,6 @@ img {
   width: 280px;
   height: 380px;
   margin: 55px 0;
-  background: inherit;
 }
 .welcome-party-container .welcome-party-content .welcome-party-title {
   color: rgb(255, 255, 255);
@@ -135,4 +134,42 @@ img {
   background-color: inherit;
   border: none;
   padding-left: 20px;
+}
+
+/* join now section styles */
+.join-now-container {
+  width: 82%;
+  max-width: 1320px;
+  margin: 40px auto;
+  height: 350px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-top: 100px;
+  text-align: center;
+  padding-top: 82px;
+}
+.join-now-container p {
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 45px;
+  text-transform: capitalize;
+}
+
+.join-now-container p span {
+  color: rgb(255, 0, 0);
+}
+.join-now-container button {
+  width: 130px;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  text-align: center;
+  padding: 13px 26px;
+  color: white;
+  border: none;
+  margin-top: 50px;
 }
