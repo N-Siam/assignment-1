@@ -194,9 +194,9 @@ img {
   text-align: left;
   padding-bottom: 10px;
 }
-.coming-soon-wish h1{
-    font-weight: 700;
-    font-size: 36px;
+.coming-soon-wish h1 {
+  font-weight: 700;
+  font-size: 36px;
 }
 .coming-soon-container .coming-soon-item h1 {
   color: rgb(7, 2, 17);
@@ -228,13 +228,60 @@ img {
   border-radius: 50%;
   margin: 0px auto;
 }
-.coming-soon-container .coming-soon-wish img{
-    width: 115px;
-    height: 115px;
-    margin: 0px auto;
+.coming-soon-container .coming-soon-wish img {
+  width: 115px;
+  height: 115px;
+  margin: 0px auto;
 }
 
+/* holiday sales styles */
+.holiday-sale-container {
+  width: 65%;
+  max-width: 1320px;
+  margin: 40px auto;
+  height: 240px;
+  text-align: center;
+  align-content: center;
+  padding-top: 82px;
+}
+.holiday-sale-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.holiday-sale-container h2 {
+  font-family: Merriweather;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 91px;
+}
+.holiday-sale-container h2 span{
+    color: rgb(255, 0, 0);
+}
+.holiday-sale-container p {
+  /* width: 800px; */
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
 
+.holiday-sale-img {
+    width: 82%;
+    max-width: 1320px;
+    height: 550px;
+    margin: 40px auto;
+    border: 1px solid black;
+    background-image: url('../assets/images/Rectangle-1.png'), url('../assets/images/Group-71.png'), url('../assets/images/Rectangle-2.png'), url('../assets/images/Group-44.png');
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top right, left center, bottom, center;
+    background-size: 350px 350px, 550px 400px, 1320px 200px, 220px 220px;
+    transform: none, none, none, rotate(-34.21deg);
+}
 
 /* portfolio section styles */
 .portfolio-container {
