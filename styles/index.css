@@ -324,6 +324,7 @@ img {
   gap: 20px;
   width: 350px;
   height: 370px;
+  cursor: pointer;
 }
 .portfolio-container .portfolio-img2 {
   display: flex;
@@ -331,7 +332,17 @@ img {
   width: 350px;
   height: 370px;
   margin-bottom: 100px;
+  cursor: pointer;
 }
+.portfolio-container .portfolio-img1 img:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+.portfolio-container .portfolio-img2 img:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease;
+}
+
 
 /* subscribe section styles */
 .subscribe-container {
