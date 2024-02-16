@@ -174,6 +174,68 @@ img {
   margin-top: 50px;
 }
 
+/* coming soon section styles */
+.coming-soon-container {
+  width: 82%;
+  max-width: 1320px;
+  margin: 40px auto;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.coming-soon-container .coming-soon-item h3,
+.coming-soon-wish h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.coming-soon-wish h1{
+    font-weight: 700;
+    font-size: 36px;
+}
+.coming-soon-container .coming-soon-item h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+  text-transform: capitalize;
+  padding-bottom: 12px;
+}
+.coming-soon-container .coming-soon-item p,
+.coming-soon-wish p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  width: 320px;
+  padding-bottom: 16px;
+}
+.coming-soon-container .coming-soon-img img {
+  width: 320px;
+  height: 320px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  margin: 0px auto;
+}
+.coming-soon-container .coming-soon-wish img{
+    width: 115px;
+    height: 115px;
+    margin: 0px auto;
+}
+
+
+
 /* portfolio section styles */
 .portfolio-container {
   width: 82%;
@@ -183,11 +245,11 @@ img {
 .portfolio-container h3 {
   color: rgb(255, 0, 0);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
-  line-height: 29px;
+  line-height: 30px;
   text-align: left;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 .portfolio-container h2 {
   color: rgb(7, 2, 17);
@@ -319,9 +381,9 @@ img {
 .footer-contact-info {
   width: 305px;
 }
-.footer-contact-info img{
-    width: 13px;
-    height: 13px;
+.footer-contact-info img {
+  width: 13px;
+  height: 13px;
 }
 .footer-container .footer-icon hr {
   border: 1px solid rgba(255, 255, 255, 0.15);
