@@ -274,13 +274,14 @@ img {
     width: 82%;
     max-width: 1320px;
     height: 550px;
-    margin: 40px auto;
-    border: 1px solid black;
-    background-image: url('../assets/images/Rectangle-1.png'), url('../assets/images/Group-71.png'), url('../assets/images/Rectangle-2.png'), url('../assets/images/Group-44.png');
+    margin: 100px auto;
+    /* border: 1px solid black; */
+    background-image:  url('../assets/images/Group-44.png'), url('../assets/images/Rectangle-1.png'), url('../assets/images/Group-71.png'), url('../assets/images/Rectangle-2.png');
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position: top right, left center, bottom, center;
-    background-size: 350px 350px, 550px 400px, 1320px 200px, 220px 220px;
-    transform: none, none, none, rotate(-34.21deg);
+    background-position: 70% 20%, top right, left center, bottom ;
+    background-size: 220px 220px, 350px 350px, 550px 400px, 1320px 200px;
+    transform: rotate(-34.21deg), none, none, none;
+
 }
 
 /* portfolio section styles */
